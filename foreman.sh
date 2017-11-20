@@ -44,8 +44,9 @@ function all_hosts {
 
 case $1 in
     searchHosts)
-        if [ $# -ne 2 ];
-        then echo "must specified starting host pattern"
+        if [ $# -ne 2 ]; then
+            echo "must specified starting host pattern"
+            exit 1
         fi
         search_hosts $2
         ;;
