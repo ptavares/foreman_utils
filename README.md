@@ -31,3 +31,12 @@ password=<password>
 ```
 
 User must be authorized to connect to foreman API.
+
+ ## Execute
+
+Run foreman.sh script to print usage
+
+```bash
+ ./foreman.sh
+```
+
