@@ -54,7 +54,7 @@ case $1 in
         all_hosts
         ;;
     *)
-        echo "usage ${BASEDIR}/foreman_api.sh (searchHosts|allHosts)"
+        echo "usage ${0} (searchHosts|allHosts)"
         ;;
 esac
 
